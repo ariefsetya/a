@@ -1,3 +1,6 @@
+<?php
+$base_url = 'http://a.setya.me';
+?>
 <!DOCTYPE html>
 <html lang="en" class="no-js demo-4">
 	<head>
@@ -6,14 +9,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<title>Arief Setya</title>
 		<meta name="description" content="Arief Setya - Web Developer" />
-		<meta name="keywords" content="javascript, jquery, plugin, css3, flip, page, 3d, booklet, book, perspective" />
+		<meta name="og:description" content="Arief Setya - Web Developer" />
+		<meta name="og:site_name" content="Arief Setya - Web Developer" />
+		<meta name="og:author" content="https://www.facebook.com/ariefsetya13" />
+		<meta name="keywords" content="C++, Visual Basic, Native PHP5, Laravel, CodeIgniter, Native CSS3, MetroUI, Bootstrap, Responsive Web Design, HTML5, Native JS3, jQuery, MySQL, Java Android, Linux Env, Apache WebServer" />
 		<meta name="author" content="Arief Setya" />
-		<link rel="shortcut icon" href="../favicon.ico"> 
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/bookblock.css" />
+		<link rel="shortcut icon" href="<?php echo $base_url;?>/images/img.jpg"> 
+		<link rel="stylesheet" type="text/css" href="<?php echo $base_url;?>/css/default.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo $base_url;?>/css/bookblock.css" />
 		<!-- custom demo style -->
-		<link rel="stylesheet" type="text/css" href="css/demo4.css" />
-		<script src="js/modernizr.custom.js"></script>
+		<link rel="stylesheet" type="text/css" href="<?php echo $base_url;?>/css/demo4.css" />
+		<script src="<?php echo $base_url;?>/js/modernizr.custom.js"></script>
 	</head>
 	<body>
 		<div class="container" style="border:21px solid #333;">
@@ -22,7 +28,7 @@
 				<div id="bb-bookblock" class="bb-bookblock">
 					<div class="bb-item">
 						<div class="bb-custom-firstpage">
-							<img style="max-width:200px;" src="images/img.jpg">
+							<img style="max-width:200px;" src="<?php echo $base_url;?>/images/img.jpg">
 							<h1>Arief Setya <span style="color:black !important;">Web Developer</span></h1>	
 						</div>
 						<div class="bb-custom-side">
@@ -66,8 +72,8 @@
 
 		</div><!-- /container -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/jquerypp.custom.js"></script>
-		<script src="js/jquery.bookblock.js"></script>
+		<script src="<?php echo $base_url;?>/js/jquerypp.custom.js"></script>
+		<script src="<?php echo $base_url;?>/js/jquery.bookblock.js"></script>
 		<script>
 			var Page = (function() {
 				
